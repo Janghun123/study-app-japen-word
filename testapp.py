@@ -2,169 +2,190 @@ import customtkinter as ctk
 import os
 import json
 import random
-from tkinter import Toplevel, StringVar
-from datetime import datetime
+from tkinter import Toplevel
 
-# ✅ 다크모드 설정 초기값 (시스템 자동 또는 수동 토글 가능)
+# ✅ 파일 경로 상수
+STAT_FILE = "quiz_stats.json"
+WORD_FILE = "words.json"
+SETTINGS_FILE = "settings.json"
+
+# ✅ 초기 설정
 ctk.set_appearance_mode("System")
 ctk.set_default_color_theme("dark-blue")
 
-# ✅ 기본 단어 리스트 (100개로 확장됨) - 발음 포함
-DEFAULT_WORDS = [
-    ("学校", "학교", "がっこう"), ("先生", "선생님", "せんせい"), ("本", "책", "ほん"), ("学生", "학생", "がくせい"), ("日本", "일본", "にほん"),
-    # ... (이하 생략)
-    ("鍵", "열쇠", "かぎ"), ("地図", "지도", "ちず")
-]
+# ✅ 단어 데이터 불러오기
+DEFAULT_WORDS = []
+if os.path.exists(WORD_FILE):
+    with open(WORD_FILE, "r", encoding="utf-8") as f:
+        DEFAULT_WORDS = [w for w in json.load(f) if w.get("word") and w.get("meaning") and not any(char.isdigit() for char in w["word"])]
 
-QUIZ_MODE_OPTIONS = ["단어 → 뜻", "뜻 → 단어", "무작위"]
-
-APP_STATE = {
-    "quiz_mode": QUIZ_MODE_OPTIONS[0],
+# ✅ 사용자 설정 불러오기
+USER_SETTINGS = {
+    "dark_mode": True,
+    "mode": "random",
     "show_pronunciation": False,
-    "quiz_data": [],
-    "quiz_direction": [],
-    "dark_mode": True
+    "quiz_count": 10
+}
+if os.path.exists(SETTINGS_FILE):
+    with open(SETTINGS_FILE, "r", encoding="utf-8") as f:
+        USER_SETTINGS.update(json.load(f))
+
+# ✅ 모드 설정
+QUIZ_MODES = {
+    "무작위": "random",
+    "단어 → 뜻": "word_to_meaning",
+    "뜻 → 단어": "meaning_to_word"
 }
 
-class WordbookApp(ctk.CTk):
+# ✅ 퀴즈 앱 클래스
+class QuizApp(ctk.CTk):
     def __init__(self):
         super().__init__()
-        self.title("📖 일본어 퀴즈 단어장")
-        self.geometry("420x640")
-        self.configure(padx=10, pady=10)
+        self.title("일본어 단어 퀴즈")
+        self.geometry("500x800")
+        self.configure(padx=20, pady=20)
 
-        self.current_widgets = []
+        self.quiz_words = []
+        self.quiz_items = []
+        self.saved_words = []
+        self.current_mode = USER_SETTINGS["mode"]
+        self.show_pronunciation = USER_SETTINGS["show_pronunciation"]
+        self.quiz_count = USER_SETTINGS["quiz_count"]
 
-        # ✅ 상단 바 통합 프레임
-        self.top_bar = ctk.CTkFrame(self, fg_color="transparent")
-        self.top_bar.pack(fill="x", pady=(5, 0))
+        ctk.CTkLabel(self, text="📘 일본어 퀴즈", font=("Arial", 20, "bold")).pack(pady=10)
 
-        self.mode_var = StringVar(value=APP_STATE["quiz_mode"])
-        self.mode_menu = ctk.CTkOptionMenu(self.top_bar, variable=self.mode_var, values=QUIZ_MODE_OPTIONS, command=self.change_mode)
-        self.mode_menu.pack(side="left", padx=(0, 5))
+        self.dark_mode_var = ctk.BooleanVar(value=USER_SETTINGS.get("dark_mode", True))
+        ctk.CTkCheckBox(self, text="다크모드", variable=self.dark_mode_var, command=self.toggle_dark_mode).pack(anchor="ne", pady=(0,10))
 
-        self.pronounce_toggle = ctk.CTkButton(self.top_bar, text="👁️ 발음 보기", width=110, command=self.toggle_pronunciation)
-        self.pronounce_toggle.pack(side="left", padx=(0, 5))
+        self.mode_var = ctk.StringVar(value=self.current_mode)
+        self.mode_frame = ctk.CTkFrame(self)
+        self.mode_frame.pack(pady=(0, 10))
+        for text, mode in QUIZ_MODES.items():
+            ctk.CTkRadioButton(self.mode_frame, text=text, variable=self.mode_var, value=mode, command=self.update_display_mode).pack(side="left", padx=5)
 
-        self.theme_toggle = ctk.CTkSwitch(self.top_bar, text="다크모드", command=self.toggle_theme)
-        self.theme_toggle.select()  # 기본 다크모드 ON
-        self.theme_toggle.pack(side="right")
+        self.count_entry = ctk.CTkEntry(self, placeholder_text="문제 수 (예: 10)", width=120)
+        self.count_entry.insert(0, str(self.quiz_count))
+        self.count_entry.pack(pady=(0, 5))
 
-        # ✅ 퀴즈 컨트롤 버튼들
-        self.check_button = ctk.CTkButton(self, text="정답 확인", command=self.check_all_answers)
-        self.check_button.pack(fill="x", padx=5, pady=(10, 3))
+        ctk.CTkButton(self, text="발음 보기", command=self.toggle_pronunciation_display).pack(pady=(0, 10))
 
-        self.reset_button = ctk.CTkButton(self, text="퀴즈 초기화", command=self.reset_quiz_state)
-        self.reset_button.pack(fill="x", padx=5, pady=(0, 3))
+        button_frame = ctk.CTkFrame(self)
+        button_frame.pack(pady=5)
+        ctk.CTkButton(button_frame, text="퀴즈 생성", command=self.generate_quiz, width=120).grid(row=0, column=0, padx=5)
+        ctk.CTkButton(button_frame, text="오답 다시 풀기", command=self.retry_wrong_answers, width=120).grid(row=0, column=1, padx=5)
+        ctk.CTkButton(button_frame, text="통계 보기", command=self.show_stats, width=120).grid(row=0, column=2, padx=5)
 
-        self.generate_btn = ctk.CTkButton(self, text="새 퀴즈 생성", height=32, command=self.generate_quiz)
-        self.generate_btn.pack(fill="x", padx=5, pady=(0, 8))
+        self.quiz_frame = ctk.CTkScrollableFrame(self, label_text="퀴즈 문제")
+        self.quiz_frame.pack(fill="both", expand=True, pady=(10, 10))
 
-        self.quiz_frame = ctk.CTkScrollableFrame(self, fg_color="transparent")
-        self.quiz_frame.pack(fill="both", expand=True)
+        action_frame = ctk.CTkFrame(self)
+        action_frame.pack(pady=(5, 10))
+        ctk.CTkButton(action_frame, text="정답 확인", command=self.check_answers, width=200).grid(row=0, column=0, padx=5)
+        ctk.CTkButton(action_frame, text="다시 풀기", command=self.retry_current_items, width=200).grid(row=0, column=1, padx=5)
 
         self.generate_quiz()
 
-    def toggle_pronunciation(self):
-        APP_STATE["show_pronunciation"] = not APP_STATE["show_pronunciation"]
-        for widget in self.current_widgets:
-            if isinstance(widget, QuizItem):
-                widget.update_pronunciation()
-
-    def toggle_theme(self):
-        APP_STATE["dark_mode"] = not APP_STATE["dark_mode"]
-        mode = "Dark" if APP_STATE["dark_mode"] else "Light"
+    def toggle_dark_mode(self):
+        mode = "Dark" if self.dark_mode_var.get() else "Light"
         ctk.set_appearance_mode(mode)
-        self.update_quiz_display(refresh_direction=False)
 
-    def change_mode(self, selected_mode):
-        APP_STATE["quiz_mode"] = selected_mode
-        self.generate_quiz()
+    def update_display_mode(self):
+        self.current_mode = self.mode_var.get()
+        self.refresh_quiz_items()
+
+    def toggle_pronunciation_display(self):
+        self.show_pronunciation = not self.show_pronunciation
+        self.refresh_quiz_items()
 
     def generate_quiz(self):
-        APP_STATE["quiz_data"] = random.sample(DEFAULT_WORDS, 5)
-        APP_STATE["quiz_direction"] = []
-        for _ in APP_STATE["quiz_data"]:
-            if APP_STATE["quiz_mode"] == "무작위":
-                APP_STATE["quiz_direction"].append(random.choice(["단어→뜻", "뜻→단어"]))
-            else:
-                APP_STATE["quiz_direction"].append(APP_STATE["quiz_mode"])
-        self.update_quiz_display()
+        try:
+            self.quiz_count = int(self.count_entry.get())
+        except:
+            self.quiz_count = USER_SETTINGS["quiz_count"]
 
-    def update_quiz_display(self, refresh_direction=True):
-        for widget in self.current_widgets:
+        self.saved_words = random.sample(DEFAULT_WORDS, min(self.quiz_count, len(DEFAULT_WORDS)))
+        self.refresh_quiz_items()
+
+    def refresh_quiz_items(self):
+        for widget in self.quiz_frame.winfo_children():
             widget.destroy()
-        self.current_widgets.clear()
+        self.quiz_items = [QuizItem(self.quiz_frame, word_data, self.current_mode, self.show_pronunciation) for word_data in self.saved_words]
+        for item in self.quiz_items:
+            item.pack(fill="x", pady=5)
 
-        for idx, (word, meaning, pronunciation) in enumerate(APP_STATE["quiz_data"]):
-            if refresh_direction:
-                mode = APP_STATE["quiz_mode"]
-                if mode == "무작위":
-                    mode = APP_STATE["quiz_direction"][idx] = random.choice(["단어→뜻", "뜻→단어"])
-                else:
-                    APP_STATE["quiz_direction"][idx] = mode
-            else:
-                mode = APP_STATE["quiz_direction"][idx]
+    def retry_wrong_answers(self):
+        wrong_items = [item for item in self.quiz_items if not item.answered_correctly]
+        self.saved_words = [item.word_data for item in wrong_items]
+        self.refresh_quiz_items()
 
-            quiz = word if mode == "단어→뜻" else meaning
-            answer = meaning if mode == "단어→뜻" else word
+    def retry_current_items(self):
+        self.refresh_quiz_items()
 
-            quiz_box = QuizItem(self.quiz_frame, quiz, answer, pronunciation)
-            quiz_box.pack(fill="x", padx=5, pady=4)
-            self.current_widgets.append(quiz_box)
+    def show_stats(self):
+        correct = sum(item.answered_correctly for item in self.quiz_items)
+        incorrect = len(self.quiz_items) - correct
+        popup = Toplevel(self)
+        popup.title("퀴즈 통계")
+        popup.geometry("300x150")
+        popup.configure(bg="#333333")
+        label = ctk.CTkLabel(popup, text=f"정답: {correct}\n오답: {incorrect}", font=("Arial", 14))
+        label.pack(padx=10, pady=20)
 
-    def check_all_answers(self):
-        for item in self.current_widgets:
-            if isinstance(item, QuizItem):
-                item.reveal_answer()
-
-    def reset_quiz_state(self):
-        self.generate_quiz()
+    def check_answers(self):
+        for item in self.quiz_items:
+            item.check_answer()
 
 
+# ✅ 퀴즈 항목 클래스
 class QuizItem(ctk.CTkFrame):
-    def __init__(self, master, quiz, answer, pronunciation):
-        super().__init__(master, corner_radius=10, border_width=1, border_color="#666")
-        self.answer = answer
-        self.pronunciation = pronunciation
-        self.quiz = quiz
+    def __init__(self, master, word_data, mode, show_pronunciation):
+        super().__init__(master)
+        self.word_data = word_data
+        self.mode = mode
+        self.show_pronunciation = show_pronunciation
+        self.answered_correctly = False
 
-        bg_color = "#f0f0f0" if not APP_STATE["dark_mode"] else "#333"
-        text_color = "black" if not APP_STATE["dark_mode"] else "white"
+        self.question, self.answer = self.prepare_question()
 
-        self.configure(fg_color=bg_color)
+        question_text = self.question
+        if show_pronunciation and word_data.get("pronunciation"):
+            question_text += f" [{word_data['pronunciation']}]"
 
-        self.label = ctk.CTkLabel(self, text=quiz, anchor="w", font=("Arial", 16), text_color=text_color)
-        self.label.grid(row=0, column=0, padx=10, sticky="w")
+        self.label = ctk.CTkLabel(self, text=question_text, font=("Arial", 16), text_color="#3366cc")
+        self.label.pack(side="left", padx=10)
 
-        self.entry = ctk.CTkEntry(self, placeholder_text="입력...")
-        self.entry.grid(row=0, column=1, padx=10, sticky="ew")
+        self.entry = ctk.CTkEntry(self, placeholder_text="정답 입력")
+        self.entry.pack(side="left", fill="x", expand=True, padx=10)
 
-        self.pronounce_label = ctk.CTkLabel(
-            self,
-            text=self.pronunciation if APP_STATE["show_pronunciation"] else "",
-            font=("Arial", 12, "italic"),
-            text_color="gray"
-        )
-        self.pronounce_label.grid(row=1, column=0, columnspan=2, padx=10, sticky="w")
+        self.feedback_label = None
 
-        self.grid_columnconfigure(1, weight=1)
-
-    def update_pronunciation(self):
-        self.pronounce_label.configure(text=self.pronunciation if APP_STATE["show_pronunciation"] else "")
-
-    def reveal_answer(self):
-        user_input = self.entry.get().strip()
-        if user_input == self.answer:
-            self.label.configure(text_color="green")
-            self.entry.destroy()
+    def prepare_question(self):
+        if self.mode == "word_to_meaning":
+            return self.word_data["word"], self.word_data["meaning"]
+        elif self.mode == "meaning_to_word":
+            return self.word_data["meaning"], self.word_data["word"]
         else:
-            self.label.configure(text_color="red")
-            self.entry.destroy()
-            wrong_label = ctk.CTkLabel(self, text=f"정답: {self.answer}", text_color="gray")
-            wrong_label.grid(row=0, column=1, padx=10, sticky="w")
+            if random.choice([True, False]):
+                return self.word_data["word"], self.word_data["meaning"]
+            else:
+                return self.word_data["meaning"], self.word_data["word"]
+
+    def check_answer(self):
+        user_input = self.entry.get().strip()
+        if self.feedback_label:
+            self.feedback_label.destroy()
+
+        if user_input == self.answer:
+            self.answered_correctly = True
+            self.feedback_label = ctk.CTkLabel(self, text="정답입니다!", text_color="green")
+        else:
+            self.feedback_label = ctk.CTkLabel(self, text=f"정답: {self.answer}", text_color="red")
+
+        self.entry.pack_forget()
+        self.feedback_label.pack(side="left", padx=10)
 
 
+# ✅ 앱 실행
 if __name__ == "__main__":
-    app = WordbookApp()
+    app = QuizApp()
     app.mainloop()

@@ -1,0 +1,1002 @@
+[
+  {
+    "word": "学校",
+    "meaning": "학교",
+    "pronunciation": "がっこう"
+  },
+  {
+    "word": "先生",
+    "meaning": "선생님",
+    "pronunciation": "せんせい"
+  },
+  {
+    "word": "学生",
+    "meaning": "학생",
+    "pronunciation": "がくせい"
+  },
+  {
+    "word": "本",
+    "meaning": "책",
+    "pronunciation": "ほん"
+  },
+  {
+    "word": "日本",
+    "meaning": "일본",
+    "pronunciation": "にほん"
+  },
+  {
+    "word": "水",
+    "meaning": "물",
+    "pronunciation": "みず"
+  },
+  {
+    "word": "友達",
+    "meaning": "친구",
+    "pronunciation": "ともだち"
+  },
+  {
+    "word": "車",
+    "meaning": "자동차",
+    "pronunciation": "くるま"
+  },
+  {
+    "word": "食べる",
+    "meaning": "먹다",
+    "pronunciation": "たべる"
+  },
+  {
+    "word": "行く",
+    "meaning": "가다",
+    "pronunciation": "いく"
+  },
+  {
+    "word": "見る",
+    "meaning": "보다",
+    "pronunciation": "みる"
+  },
+  {
+    "word": "聞く",
+    "meaning": "듣다",
+    "pronunciation": "きく"
+  },
+  {
+    "word": "書く",
+    "meaning": "쓰다",
+    "pronunciation": "かく"
+  },
+  {
+    "word": "話す",
+    "meaning": "말하다",
+    "pronunciation": "はなす"
+  },
+  {
+    "word": "読む",
+    "meaning": "읽다",
+    "pronunciation": "よむ"
+  },
+  {
+    "word": "飲む",
+    "meaning": "마시다",
+    "pronunciation": "のむ"
+  },
+  {
+    "word": "立つ",
+    "meaning": "서다",
+    "pronunciation": "たつ"
+  },
+  {
+    "word": "走る",
+    "meaning": "달리다",
+    "pronunciation": "はしる"
+  },
+  {
+    "word": "寝る",
+    "meaning": "자다",
+    "pronunciation": "ねる"
+  },
+  {
+    "word": "起きる",
+    "meaning": "일어나다",
+    "pronunciation": "おきる"
+  },
+  {
+    "word": "買う",
+    "meaning": "사다",
+    "pronunciation": "かう"
+  },
+  {
+    "word": "売る",
+    "meaning": "팔다",
+    "pronunciation": "うる"
+  },
+  {
+    "word": "働く",
+    "meaning": "일하다",
+    "pronunciation": "はたらく"
+  },
+  {
+    "word": "使う",
+    "meaning": "사용하다",
+    "pronunciation": "つかう"
+  },
+  {
+    "word": "作る",
+    "meaning": "만들다",
+    "pronunciation": "つくる"
+  },
+  {
+    "word": "会う",
+    "meaning": "만나다",
+    "pronunciation": "あう"
+  },
+  {
+    "word": "住む",
+    "meaning": "살다",
+    "pronunciation": "すむ"
+  },
+  {
+    "word": "歩く",
+    "meaning": "걷다",
+    "pronunciation": "あるく"
+  },
+  {
+    "word": "勉強",
+    "meaning": "공부",
+    "pronunciation": "べんきょう"
+  },
+  {
+    "word": "電話",
+    "meaning": "전화",
+    "pronunciation": "でんわ"
+  },
+  {
+    "word": "机",
+    "meaning": "책상",
+    "pronunciation": "つくえ"
+  },
+  {
+    "word": "椅子",
+    "meaning": "의자",
+    "pronunciation": "いす"
+  },
+  {
+    "word": "窓",
+    "meaning": "창문",
+    "pronunciation": "まど"
+  },
+  {
+    "word": "部屋",
+    "meaning": "방",
+    "pronunciation": "へや"
+  },
+  {
+    "word": "天気",
+    "meaning": "날씨",
+    "pronunciation": "てんき"
+  },
+  {
+    "word": "花",
+    "meaning": "꽃",
+    "pronunciation": "はな"
+  },
+  {
+    "word": "山",
+    "meaning": "산",
+    "pronunciation": "やま"
+  },
+  {
+    "word": "川",
+    "meaning": "강",
+    "pronunciation": "かわ"
+  },
+  {
+    "word": "海",
+    "meaning": "바다",
+    "pronunciation": "うみ"
+  },
+  {
+    "word": "空",
+    "meaning": "하늘",
+    "pronunciation": "そら"
+  },
+  {
+    "word": "月",
+    "meaning": "달",
+    "pronunciation": "つき"
+  },
+  {
+    "word": "火",
+    "meaning": "불",
+    "pronunciation": "ひ"
+  },
+  {
+    "word": "木",
+    "meaning": "나무",
+    "pronunciation": "き"
+  },
+  {
+    "word": "金",
+    "meaning": "돈 / 금",
+    "pronunciation": "かね"
+  },
+  {
+    "word": "土",
+    "meaning": "흙 / 토양",
+    "pronunciation": "つち"
+  },
+  {
+    "word": "日",
+    "meaning": "날 / 해",
+    "pronunciation": "ひ"
+  },
+  {
+    "word": "時間",
+    "meaning": "시간",
+    "pronunciation": "じかん"
+  },
+  {
+    "word": "今",
+    "meaning": "지금",
+    "pronunciation": "いま"
+  },
+  {
+    "word": "今日",
+    "meaning": "오늘",
+    "pronunciation": "きょう"
+  },
+  {
+    "word": "単語50",
+    "meaning": "물",
+    "pronunciation": "たんご50"
+  },
+  {
+    "word": "単語51",
+    "meaning": "산",
+    "pronunciation": "たんご51"
+  },
+  {
+    "word": "単語52",
+    "meaning": "물",
+    "pronunciation": "たんご52"
+  },
+  {
+    "word": "単語53",
+    "meaning": "학생",
+    "pronunciation": "たんご53"
+  },
+  {
+    "word": "単語54",
+    "meaning": "학교",
+    "pronunciation": "たんご54"
+  },
+  {
+    "word": "単語55",
+    "meaning": "사람",
+    "pronunciation": "たんご55"
+  },
+  {
+    "word": "単語56",
+    "meaning": "사람",
+    "pronunciation": "たんご56"
+  },
+  {
+    "word": "単語57",
+    "meaning": "선생님",
+    "pronunciation": "たんご57"
+  },
+  {
+    "word": "単語58",
+    "meaning": "물",
+    "pronunciation": "たんご58"
+  },
+  {
+    "word": "単語59",
+    "meaning": "선생님",
+    "pronunciation": "たんご59"
+  },
+  {
+    "word": "単語60",
+    "meaning": "학생",
+    "pronunciation": "たんご60"
+  },
+  {
+    "word": "単語61",
+    "meaning": "책",
+    "pronunciation": "たんご61"
+  },
+  {
+    "word": "単語62",
+    "meaning": "불",
+    "pronunciation": "たんご62"
+  },
+  {
+    "word": "単語63",
+    "meaning": "강",
+    "pronunciation": "たんご63"
+  },
+  {
+    "word": "単語64",
+    "meaning": "강",
+    "pronunciation": "たんご64"
+  },
+  {
+    "word": "単語65",
+    "meaning": "학생",
+    "pronunciation": "たんご65"
+  },
+  {
+    "word": "単語66",
+    "meaning": "사람",
+    "pronunciation": "たんご66"
+  },
+  {
+    "word": "単語67",
+    "meaning": "학교",
+    "pronunciation": "たんご67"
+  },
+  {
+    "word": "単語68",
+    "meaning": "학생",
+    "pronunciation": "たんご68"
+  },
+  {
+    "word": "単語69",
+    "meaning": "물",
+    "pronunciation": "たんご69"
+  },
+  {
+    "word": "単語70",
+    "meaning": "물",
+    "pronunciation": "たんご70"
+  },
+  {
+    "word": "単語71",
+    "meaning": "학교",
+    "pronunciation": "たんご71"
+  },
+  {
+    "word": "単語72",
+    "meaning": "책",
+    "pronunciation": "たんご72"
+  },
+  {
+    "word": "単語73",
+    "meaning": "사람",
+    "pronunciation": "たんご73"
+  },
+  {
+    "word": "単語74",
+    "meaning": "학교",
+    "pronunciation": "たんご74"
+  },
+  {
+    "word": "単語75",
+    "meaning": "사람",
+    "pronunciation": "たんご75"
+  },
+  {
+    "word": "単語76",
+    "meaning": "학교",
+    "pronunciation": "たんご76"
+  },
+  {
+    "word": "単語77",
+    "meaning": "선생님",
+    "pronunciation": "たんご77"
+  },
+  {
+    "word": "単語78",
+    "meaning": "불",
+    "pronunciation": "たんご78"
+  },
+  {
+    "word": "単語79",
+    "meaning": "사람",
+    "pronunciation": "たんご79"
+  },
+  {
+    "word": "単語80",
+    "meaning": "선생님",
+    "pronunciation": "たんご80"
+  },
+  {
+    "word": "単語81",
+    "meaning": "불",
+    "pronunciation": "たんご81"
+  },
+  {
+    "word": "単語82",
+    "meaning": "학생",
+    "pronunciation": "たんご82"
+  },
+  {
+    "word": "単語83",
+    "meaning": "사람",
+    "pronunciation": "たんご83"
+  },
+  {
+    "word": "単語84",
+    "meaning": "일본",
+    "pronunciation": "たんご84"
+  },
+  {
+    "word": "単語85",
+    "meaning": "학생",
+    "pronunciation": "たんご85"
+  },
+  {
+    "word": "単語86",
+    "meaning": "선생님",
+    "pronunciation": "たんご86"
+  },
+  {
+    "word": "単語87",
+    "meaning": "산",
+    "pronunciation": "たんご87"
+  },
+  {
+    "word": "単語88",
+    "meaning": "강",
+    "pronunciation": "たんご88"
+  },
+  {
+    "word": "単語89",
+    "meaning": "학교",
+    "pronunciation": "たんご89"
+  },
+  {
+    "word": "単語90",
+    "meaning": "물",
+    "pronunciation": "たんご90"
+  },
+  {
+    "word": "単語91",
+    "meaning": "책",
+    "pronunciation": "たんご91"
+  },
+  {
+    "word": "単語92",
+    "meaning": "선생님",
+    "pronunciation": "たんご92"
+  },
+  {
+    "word": "単語93",
+    "meaning": "일본",
+    "pronunciation": "たんご93"
+  },
+  {
+    "word": "単語94",
+    "meaning": "산",
+    "pronunciation": "たんご94"
+  },
+  {
+    "word": "単語95",
+    "meaning": "강",
+    "pronunciation": "たんご95"
+  },
+  {
+    "word": "単語96",
+    "meaning": "강",
+    "pronunciation": "たんご96"
+  },
+  {
+    "word": "単語97",
+    "meaning": "선생님",
+    "pronunciation": "たんご97"
+  },
+  {
+    "word": "単語98",
+    "meaning": "선생님",
+    "pronunciation": "たんご98"
+  },
+  {
+    "word": "単語99",
+    "meaning": "물",
+    "pronunciation": "たんご99"
+  },
+  {
+    "word": "単語100",
+    "meaning": "일본",
+    "pronunciation": "たんご100"
+  },
+  {
+    "word": "単語101",
+    "meaning": "선생님",
+    "pronunciation": "たんご101"
+  },
+  {
+    "word": "単語102",
+    "meaning": "학교",
+    "pronunciation": "たんご102"
+  },
+  {
+    "word": "単語103",
+    "meaning": "강",
+    "pronunciation": "たんご103"
+  },
+  {
+    "word": "単語104",
+    "meaning": "선생님",
+    "pronunciation": "たんご104"
+  },
+  {
+    "word": "単語105",
+    "meaning": "학생",
+    "pronunciation": "たんご105"
+  },
+  {
+    "word": "単語106",
+    "meaning": "불",
+    "pronunciation": "たんご106"
+  },
+  {
+    "word": "単語107",
+    "meaning": "산",
+    "pronunciation": "たんご107"
+  },
+  {
+    "word": "単語108",
+    "meaning": "선생님",
+    "pronunciation": "たんご108"
+  },
+  {
+    "word": "単語109",
+    "meaning": "일본",
+    "pronunciation": "たんご109"
+  },
+  {
+    "word": "単語110",
+    "meaning": "사람",
+    "pronunciation": "たんご110"
+  },
+  {
+    "word": "単語111",
+    "meaning": "책",
+    "pronunciation": "たんご111"
+  },
+  {
+    "word": "単語112",
+    "meaning": "일본",
+    "pronunciation": "たんご112"
+  },
+  {
+    "word": "単語113",
+    "meaning": "물",
+    "pronunciation": "たんご113"
+  },
+  {
+    "word": "単語114",
+    "meaning": "책",
+    "pronunciation": "たんご114"
+  },
+  {
+    "word": "単語115",
+    "meaning": "일본",
+    "pronunciation": "たんご115"
+  },
+  {
+    "word": "単語116",
+    "meaning": "산",
+    "pronunciation": "たんご116"
+  },
+  {
+    "word": "単語117",
+    "meaning": "책",
+    "pronunciation": "たんご117"
+  },
+  {
+    "word": "単語118",
+    "meaning": "학교",
+    "pronunciation": "たんご118"
+  },
+  {
+    "word": "単語119",
+    "meaning": "선생님",
+    "pronunciation": "たんご119"
+  },
+  {
+    "word": "単語120",
+    "meaning": "학교",
+    "pronunciation": "たんご120"
+  },
+  {
+    "word": "単語121",
+    "meaning": "산",
+    "pronunciation": "たんご121"
+  },
+  {
+    "word": "単語122",
+    "meaning": "일본",
+    "pronunciation": "たんご122"
+  },
+  {
+    "word": "単語123",
+    "meaning": "선생님",
+    "pronunciation": "たんご123"
+  },
+  {
+    "word": "単語124",
+    "meaning": "선생님",
+    "pronunciation": "たんご124"
+  },
+  {
+    "word": "単語125",
+    "meaning": "책",
+    "pronunciation": "たんご125"
+  },
+  {
+    "word": "単語126",
+    "meaning": "산",
+    "pronunciation": "たんご126"
+  },
+  {
+    "word": "単語127",
+    "meaning": "물",
+    "pronunciation": "たんご127"
+  },
+  {
+    "word": "単語128",
+    "meaning": "일본",
+    "pronunciation": "たんご128"
+  },
+  {
+    "word": "単語129",
+    "meaning": "물",
+    "pronunciation": "たんご129"
+  },
+  {
+    "word": "単語130",
+    "meaning": "학교",
+    "pronunciation": "たんご130"
+  },
+  {
+    "word": "単語131",
+    "meaning": "산",
+    "pronunciation": "たんご131"
+  },
+  {
+    "word": "単語132",
+    "meaning": "학생",
+    "pronunciation": "たんご132"
+  },
+  {
+    "word": "単語133",
+    "meaning": "산",
+    "pronunciation": "たんご133"
+  },
+  {
+    "word": "単語134",
+    "meaning": "사람",
+    "pronunciation": "たんご134"
+  },
+  {
+    "word": "単語135",
+    "meaning": "책",
+    "pronunciation": "たんご135"
+  },
+  {
+    "word": "単語136",
+    "meaning": "학교",
+    "pronunciation": "たんご136"
+  },
+  {
+    "word": "単語137",
+    "meaning": "강",
+    "pronunciation": "たんご137"
+  },
+  {
+    "word": "単語138",
+    "meaning": "학교",
+    "pronunciation": "たんご138"
+  },
+  {
+    "word": "単語139",
+    "meaning": "학생",
+    "pronunciation": "たんご139"
+  },
+  {
+    "word": "単語140",
+    "meaning": "사람",
+    "pronunciation": "たんご140"
+  },
+  {
+    "word": "単語141",
+    "meaning": "산",
+    "pronunciation": "たんご141"
+  },
+  {
+    "word": "単語142",
+    "meaning": "불",
+    "pronunciation": "たんご142"
+  },
+  {
+    "word": "単語143",
+    "meaning": "일본",
+    "pronunciation": "たんご143"
+  },
+  {
+    "word": "単語144",
+    "meaning": "책",
+    "pronunciation": "たんご144"
+  },
+  {
+    "word": "単語145",
+    "meaning": "강",
+    "pronunciation": "たんご145"
+  },
+  {
+    "word": "単語146",
+    "meaning": "학생",
+    "pronunciation": "たんご146"
+  },
+  {
+    "word": "単語147",
+    "meaning": "산",
+    "pronunciation": "たんご147"
+  },
+  {
+    "word": "単語148",
+    "meaning": "물",
+    "pronunciation": "たんご148"
+  },
+  {
+    "word": "単語149",
+    "meaning": "산",
+    "pronunciation": "たんご149"
+  },
+  {
+    "word": "単語150",
+    "meaning": "산",
+    "pronunciation": "たんご150"
+  },
+  {
+    "word": "単語151",
+    "meaning": "불",
+    "pronunciation": "たんご151"
+  },
+  {
+    "word": "単語152",
+    "meaning": "물",
+    "pronunciation": "たんご152"
+  },
+  {
+    "word": "単語153",
+    "meaning": "물",
+    "pronunciation": "たんご153"
+  },
+  {
+    "word": "単語154",
+    "meaning": "학생",
+    "pronunciation": "たんご154"
+  },
+  {
+    "word": "単語155",
+    "meaning": "산",
+    "pronunciation": "たんご155"
+  },
+  {
+    "word": "単語156",
+    "meaning": "불",
+    "pronunciation": "たんご156"
+  },
+  {
+    "word": "単語157",
+    "meaning": "학교",
+    "pronunciation": "たんご157"
+  },
+  {
+    "word": "単語158",
+    "meaning": "책",
+    "pronunciation": "たんご158"
+  },
+  {
+    "word": "単語159",
+    "meaning": "물",
+    "pronunciation": "たんご159"
+  },
+  {
+    "word": "単語160",
+    "meaning": "학교",
+    "pronunciation": "たんご160"
+  },
+  {
+    "word": "単語161",
+    "meaning": "일본",
+    "pronunciation": "たんご161"
+  },
+  {
+    "word": "単語162",
+    "meaning": "선생님",
+    "pronunciation": "たんご162"
+  },
+  {
+    "word": "単語163",
+    "meaning": "학교",
+    "pronunciation": "たんご163"
+  },
+  {
+    "word": "単語164",
+    "meaning": "일본",
+    "pronunciation": "たんご164"
+  },
+  {
+    "word": "単語165",
+    "meaning": "산",
+    "pronunciation": "たんご165"
+  },
+  {
+    "word": "単語166",
+    "meaning": "학교",
+    "pronunciation": "たんご166"
+  },
+  {
+    "word": "単語167",
+    "meaning": "선생님",
+    "pronunciation": "たんご167"
+  },
+  {
+    "word": "単語168",
+    "meaning": "학생",
+    "pronunciation": "たんご168"
+  },
+  {
+    "word": "単語169",
+    "meaning": "책",
+    "pronunciation": "たんご169"
+  },
+  {
+    "word": "単語170",
+    "meaning": "학교",
+    "pronunciation": "たんご170"
+  },
+  {
+    "word": "単語171",
+    "meaning": "책",
+    "pronunciation": "たんご171"
+  },
+  {
+    "word": "単語172",
+    "meaning": "사람",
+    "pronunciation": "たんご172"
+  },
+  {
+    "word": "単語173",
+    "meaning": "학생",
+    "pronunciation": "たんご173"
+  },
+  {
+    "word": "単語174",
+    "meaning": "불",
+    "pronunciation": "たんご174"
+  },
+  {
+    "word": "単語175",
+    "meaning": "책",
+    "pronunciation": "たんご175"
+  },
+  {
+    "word": "単語176",
+    "meaning": "선생님",
+    "pronunciation": "たんご176"
+  },
+  {
+    "word": "単語177",
+    "meaning": "일본",
+    "pronunciation": "たんご177"
+  },
+  {
+    "word": "単語178",
+    "meaning": "강",
+    "pronunciation": "たんご178"
+  },
+  {
+    "word": "単語179",
+    "meaning": "물",
+    "pronunciation": "たんご179"
+  },
+  {
+    "word": "単語180",
+    "meaning": "산",
+    "pronunciation": "たんご180"
+  },
+  {
+    "word": "単語181",
+    "meaning": "선생님",
+    "pronunciation": "たんご181"
+  },
+  {
+    "word": "単語182",
+    "meaning": "책",
+    "pronunciation": "たんご182"
+  },
+  {
+    "word": "単語183",
+    "meaning": "산",
+    "pronunciation": "たんご183"
+  },
+  {
+    "word": "単語184",
+    "meaning": "학교",
+    "pronunciation": "たんご184"
+  },
+  {
+    "word": "単語185",
+    "meaning": "학생",
+    "pronunciation": "たんご185"
+  },
+  {
+    "word": "単語186",
+    "meaning": "사람",
+    "pronunciation": "たんご186"
+  },
+  {
+    "word": "単語187",
+    "meaning": "불",
+    "pronunciation": "たんご187"
+  },
+  {
+    "word": "単語188",
+    "meaning": "산",
+    "pronunciation": "たんご188"
+  },
+  {
+    "word": "単語189",
+    "meaning": "학교",
+    "pronunciation": "たんご189"
+  },
+  {
+    "word": "単語190",
+    "meaning": "물",
+    "pronunciation": "たんご190"
+  },
+  {
+    "word": "単語191",
+    "meaning": "학생",
+    "pronunciation": "たんご191"
+  },
+  {
+    "word": "単語192",
+    "meaning": "강",
+    "pronunciation": "たんご192"
+  },
+  {
+    "word": "単語193",
+    "meaning": "불",
+    "pronunciation": "たんご193"
+  },
+  {
+    "word": "単語194",
+    "meaning": "사람",
+    "pronunciation": "たんご194"
+  },
+  {
+    "word": "単語195",
+    "meaning": "물",
+    "pronunciation": "たんご195"
+  },
+  {
+    "word": "単語196",
+    "meaning": "강",
+    "pronunciation": "たんご196"
+  },
+  {
+    "word": "単語197",
+    "meaning": "학교",
+    "pronunciation": "たんご197"
+  },
+  {
+    "word": "単語198",
+    "meaning": "일본",
+    "pronunciation": "たんご198"
+  },
+  {
+    "word": "単語199",
+    "meaning": "학생",
+    "pronunciation": "たんご199"
+  },
+  {
+    "word": "単語200",
+    "meaning": "사람",
+    "pronunciation": "たんご200"
+  }
+]
