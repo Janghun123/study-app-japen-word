@@ -169,7 +169,7 @@ class QuizItem(ctk.CTkFrame):
 
     def update_label_color(self):
         mode = ctk.get_appearance_mode()
-        color = "#ffffff" if mode == "Dark" else "#000000"
+        color = "#ffffff" if mode == "Dark" else "#222222"
         self.label.configure(text_color=color)
 
     def prepare_question(self):
