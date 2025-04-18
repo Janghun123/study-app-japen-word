@@ -71,7 +71,7 @@ class QuizApp(ctk.CTk):
 
         button_frame = ctk.CTkFrame(self)
         button_frame.pack(pady=5)
-        ctk.CTkButton(button_frame, text="퀴즈 생성", command=self.generate_quiz, width=120).grid(row=0, column=0, padx=5)
+        ctk.CTkButton(button_frame, text="퀴즈 생성", command=self.generate_quiz_from_count_entry, width=120).grid(row=0, column=0, padx=5)
         ctk.CTkButton(button_frame, text="오답 다시 풀기", command=self.retry_wrong_answers, width=120).grid(row=0, column=1, padx=5)
         ctk.CTkButton(button_frame, text="통계 보기", command=self.show_stats, width=120).grid(row=0, column=2, padx=5)
 
@@ -83,11 +83,12 @@ class QuizApp(ctk.CTk):
         ctk.CTkButton(action_frame, text="정답 확인", command=self.check_answers, width=200).grid(row=0, column=0, padx=5)
         ctk.CTkButton(action_frame, text="다시 풀기", command=self.retry_current_items, width=200).grid(row=0, column=1, padx=5)
 
-        self.generate_quiz()
+        self.generate_quiz_from_count_entry()
 
     def toggle_dark_mode(self):
         mode = "Dark" if self.dark_mode_var.get() else "Light"
         ctk.set_appearance_mode(mode)
+        self.refresh_quiz_items()
 
     def update_display_mode(self):
         self.current_mode = self.mode_var.get()
@@ -97,12 +98,14 @@ class QuizApp(ctk.CTk):
         self.show_pronunciation = not self.show_pronunciation
         self.refresh_quiz_items()
 
-    def generate_quiz(self):
+    def generate_quiz_from_count_entry(self):
         try:
             self.quiz_count = int(self.count_entry.get())
         except:
             self.quiz_count = USER_SETTINGS["quiz_count"]
+        self.generate_quiz()
 
+    def generate_quiz(self):
         self.saved_words = random.sample(DEFAULT_WORDS, min(self.quiz_count, len(DEFAULT_WORDS)))
         self.refresh_quiz_items()
 
@@ -124,11 +127,15 @@ class QuizApp(ctk.CTk):
     def show_stats(self):
         correct = sum(item.answered_correctly for item in self.quiz_items)
         incorrect = len(self.quiz_items) - correct
+        total = correct + incorrect
+        ratio = (correct / total * 100) if total > 0 else 0
+
         popup = Toplevel(self)
         popup.title("퀴즈 통계")
-        popup.geometry("300x150")
+        popup.geometry("300x160")
         popup.configure(bg="#333333")
-        label = ctk.CTkLabel(popup, text=f"정답: {correct}\n오답: {incorrect}", font=("Arial", 14))
+        text = f"정답: {correct}\n오답: {incorrect}\n정답률: {ratio:.1f}%"
+        label = ctk.CTkLabel(popup, text=text, font=("Arial", 14))
         label.pack(padx=10, pady=20)
 
     def check_answers(self):
@@ -151,13 +158,19 @@ class QuizItem(ctk.CTkFrame):
         if show_pronunciation and word_data.get("pronunciation"):
             question_text += f" [{word_data['pronunciation']}]"
 
-        self.label = ctk.CTkLabel(self, text=question_text, font=("Arial", 16), text_color="#3366cc")
+        self.label = ctk.CTkLabel(self, text=question_text, font=("Arial", 16))
         self.label.pack(side="left", padx=10)
+        self.update_label_color()
 
         self.entry = ctk.CTkEntry(self, placeholder_text="정답 입력")
         self.entry.pack(side="left", fill="x", expand=True, padx=10)
 
         self.feedback_label = None
+
+    def update_label_color(self):
+        mode = ctk.get_appearance_mode()
+        color = "#ffffff" if mode == "Dark" else "#000000"
+        self.label.configure(text_color=color)
 
     def prepare_question(self):
         if self.mode == "word_to_meaning":
@@ -171,11 +184,12 @@ class QuizItem(ctk.CTkFrame):
                 return self.word_data["meaning"], self.word_data["word"]
 
     def check_answer(self):
-        user_input = self.entry.get().strip()
+        user_input = self.entry.get().strip().lower()
+        correct_answer = self.answer.strip().lower()
         if self.feedback_label:
             self.feedback_label.destroy()
 
-        if user_input == self.answer:
+        if user_input == correct_answer:
             self.answered_correctly = True
             self.feedback_label = ctk.CTkLabel(self, text="정답입니다!", text_color="green")
         else:
