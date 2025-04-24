@@ -45,6 +45,11 @@ class QuizApp(ctk.CTk):
         self.geometry("500x800")
         self.configure(padx=20, pady=20)
 
+        self.font_size = 16  # ✅ 기본 폰트 크기 설정
+        self.bind("<MouseWheel>", self.on_mousewheel_zoom)
+        self.bind("<Button-4>", self.on_mousewheel_zoom)
+        self.bind("<Button-5>", self.on_mousewheel_zoom)
+
         self.quiz_words = []
         self.quiz_items = []
         self.saved_words = []
@@ -85,6 +90,18 @@ class QuizApp(ctk.CTk):
 
         self.generate_quiz_from_count_entry()
 
+    def on_mousewheel_zoom(self, event):
+        if event.state & 0x0004:
+            if event.num == 4 or event.delta > 0:
+                self.font_size = min(self.font_size + 1, 30)
+            elif event.num == 5 or event.delta < 0:
+                self.font_size = max(self.font_size - 1, 10)
+            self.update_font_size()
+
+    def update_font_size(self):
+        for item in self.quiz_items:
+            item.update_font_size(self.font_size)
+
     def toggle_dark_mode(self):
         mode = "Dark" if self.dark_mode_var.get() else "Light"
         ctk.set_appearance_mode(mode)
@@ -112,7 +129,10 @@ class QuizApp(ctk.CTk):
     def refresh_quiz_items(self):
         for widget in self.quiz_frame.winfo_children():
             widget.destroy()
-        self.quiz_items = [QuizItem(self.quiz_frame, word_data, self.current_mode, self.show_pronunciation) for word_data in self.saved_words]
+        self.quiz_items = [
+            QuizItem(self.quiz_frame, word_data, self.current_mode, self.show_pronunciation, self.font_size)
+            for word_data in self.saved_words
+        ]
         for item in self.quiz_items:
             item.pack(fill="x", pady=5)
 
@@ -142,14 +162,14 @@ class QuizApp(ctk.CTk):
         for item in self.quiz_items:
             item.check_answer()
 
-
 # ✅ 퀴즈 항목 클래스
 class QuizItem(ctk.CTkFrame):
-    def __init__(self, master, word_data, mode, show_pronunciation):
+    def __init__(self, master, word_data, mode, show_pronunciation, font_size):
         super().__init__(master)
         self.word_data = word_data
         self.mode = mode
         self.show_pronunciation = show_pronunciation
+        self.font_size = font_size
         self.answered_correctly = False
 
         self.question, self.answer = self.prepare_question()
@@ -158,11 +178,11 @@ class QuizItem(ctk.CTkFrame):
         if show_pronunciation and word_data.get("pronunciation"):
             question_text += f" [{word_data['pronunciation']}]"
 
-        self.label = ctk.CTkLabel(self, text=question_text, font=("Arial", 16))
+        self.label = ctk.CTkLabel(self, text=question_text, font=("Arial", self.font_size))
         self.label.pack(side="left", padx=10)
         self.update_label_color()
 
-        self.entry = ctk.CTkEntry(self, placeholder_text="정답 입력")
+        self.entry = ctk.CTkEntry(self, placeholder_text="정답 입력", font=("Arial", self.font_size))
         self.entry.pack(side="left", fill="x", expand=True, padx=10)
 
         self.feedback_label = None
@@ -191,13 +211,19 @@ class QuizItem(ctk.CTkFrame):
 
         if user_input == correct_answer:
             self.answered_correctly = True
-            self.feedback_label = ctk.CTkLabel(self, text="정답입니다!", text_color="green")
+            self.feedback_label = ctk.CTkLabel(self, text="정답입니다!", text_color="green", font=("Arial", self.font_size))
         else:
-            self.feedback_label = ctk.CTkLabel(self, text=f"정답: {self.answer}", text_color="red")
+            self.feedback_label = ctk.CTkLabel(self, text=f"정답: {self.answer}", text_color="red", font=("Arial", self.font_size))
 
         self.entry.pack_forget()
         self.feedback_label.pack(side="left", padx=10)
 
+    def update_font_size(self, new_size):
+        self.font_size = new_size
+        self.label.configure(font=("Arial", self.font_size))
+        self.entry.configure(font=("Arial", self.font_size))
+        if self.feedback_label:
+            self.feedback_label.configure(font=("Arial", self.font_size))
 
 # ✅ 앱 실행
 if __name__ == "__main__":
