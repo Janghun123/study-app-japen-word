@@ -1,0 +1,2067 @@
+[
+  {
+    "word": "学校",
+    "meaning": "학교",
+    "pronunciation": "がっこう"
+  },
+  {
+    "word": "先生",
+    "meaning": "선생님",
+    "pronunciation": "せんせい"
+  },
+  {
+    "word": "学生",
+    "meaning": "학생",
+    "pronunciation": "がくせい"
+  },
+  {
+    "word": "本",
+    "meaning": "책",
+    "pronunciation": "ほん"
+  },
+  {
+    "word": "日本",
+    "meaning": "일본",
+    "pronunciation": "にほん"
+  },
+  {
+    "word": "水",
+    "meaning": "물",
+    "pronunciation": "みず"
+  },
+  {
+    "word": "友達",
+    "meaning": "친구",
+    "pronunciation": "ともだち"
+  },
+  {
+    "word": "車",
+    "meaning": "자동차",
+    "pronunciation": "くるま"
+  },
+  {
+    "word": "食べる",
+    "meaning": "먹다",
+    "pronunciation": "たべる"
+  },
+  {
+    "word": "行く",
+    "meaning": "가다",
+    "pronunciation": "いく"
+  },
+  {
+    "word": "見る",
+    "meaning": "보다",
+    "pronunciation": "みる"
+  },
+  {
+    "word": "聞く",
+    "meaning": "듣다",
+    "pronunciation": "きく"
+  },
+  {
+    "word": "書く",
+    "meaning": "쓰다",
+    "pronunciation": "かく"
+  },
+  {
+    "word": "話す",
+    "meaning": "말하다",
+    "pronunciation": "はなす"
+  },
+  {
+    "word": "読む",
+    "meaning": "읽다",
+    "pronunciation": "よむ"
+  },
+  {
+    "word": "飲む",
+    "meaning": "마시다",
+    "pronunciation": "のむ"
+  },
+  {
+    "word": "立つ",
+    "meaning": "서다",
+    "pronunciation": "たつ"
+  },
+  {
+    "word": "走る",
+    "meaning": "달리다",
+    "pronunciation": "はしる"
+  },
+  {
+    "word": "寝る",
+    "meaning": "자다",
+    "pronunciation": "ねる"
+  },
+  {
+    "word": "起きる",
+    "meaning": "일어나다",
+    "pronunciation": "おきる"
+  },
+  {
+    "word": "買う",
+    "meaning": "사다",
+    "pronunciation": "かう"
+  },
+  {
+    "word": "売る",
+    "meaning": "팔다",
+    "pronunciation": "うる"
+  },
+  {
+    "word": "働く",
+    "meaning": "일하다",
+    "pronunciation": "はたらく"
+  },
+  {
+    "word": "使う",
+    "meaning": "사용하다",
+    "pronunciation": "つかう"
+  },
+  {
+    "word": "作る",
+    "meaning": "만들다",
+    "pronunciation": "つくる"
+  },
+  {
+    "word": "会う",
+    "meaning": "만나다",
+    "pronunciation": "あう"
+  },
+  {
+    "word": "住む",
+    "meaning": "살다",
+    "pronunciation": "すむ"
+  },
+  {
+    "word": "歩く",
+    "meaning": "걷다",
+    "pronunciation": "あるく"
+  },
+  {
+    "word": "勉強",
+    "meaning": "공부",
+    "pronunciation": "べんきょう"
+  },
+  {
+    "word": "電話",
+    "meaning": "전화",
+    "pronunciation": "でんわ"
+  },
+  {
+    "word": "机",
+    "meaning": "책상",
+    "pronunciation": "つくえ"
+  },
+  {
+    "word": "椅子",
+    "meaning": "의자",
+    "pronunciation": "いす"
+  },
+  {
+    "word": "窓",
+    "meaning": "창문",
+    "pronunciation": "まど"
+  },
+  {
+    "word": "部屋",
+    "meaning": "방",
+    "pronunciation": "へや"
+  },
+  {
+    "word": "天気",
+    "meaning": "날씨",
+    "pronunciation": "てんき"
+  },
+  {
+    "word": "花",
+    "meaning": "꽃",
+    "pronunciation": "はな"
+  },
+  {
+    "word": "山",
+    "meaning": "산",
+    "pronunciation": "やま"
+  },
+  {
+    "word": "川",
+    "meaning": "강",
+    "pronunciation": "かわ"
+  },
+  {
+    "word": "海",
+    "meaning": "바다",
+    "pronunciation": "うみ"
+  },
+  {
+    "word": "空",
+    "meaning": "하늘",
+    "pronunciation": "そら"
+  },
+  {
+    "word": "月",
+    "meaning": "달",
+    "pronunciation": "つき"
+  },
+  {
+    "word": "火",
+    "meaning": "불",
+    "pronunciation": "ひ"
+  },
+  {
+    "word": "木",
+    "meaning": "나무",
+    "pronunciation": "き"
+  },
+  {
+    "word": "金",
+    "meaning": "돈 / 금",
+    "pronunciation": "かね"
+  },
+  {
+    "word": "土",
+    "meaning": "흙 / 토양",
+    "pronunciation": "つち"
+  },
+  {
+    "word": "日",
+    "meaning": "날 / 해",
+    "pronunciation": "ひ"
+  },
+  {
+    "word": "時間",
+    "meaning": "시간",
+    "pronunciation": "じかん"
+  },
+  {
+    "word": "今",
+    "meaning": "지금",
+    "pronunciation": "いま"
+  },
+  {
+    "word": "今日",
+    "meaning": "오늘",
+    "pronunciation": "きょう"
+  },
+  {
+    "word": "魚",
+    "meaning": "생선",
+    "pronunciation": "さかな"
+  },
+  {
+    "word": "煙草",
+    "meaning": "담배",
+    "pronunciation": "たばこ"
+  },
+  {
+    "word": "皿",
+    "meaning": "접시",
+    "pronunciation": "さら"
+  },
+  {
+    "word": "コップ",
+    "meaning": "컵",
+    "pronunciation": "こっぷ"
+  },
+  {
+    "word": "携帯",
+    "meaning": "휴대전화",
+    "pronunciation": "けいたい"
+  },
+  {
+    "word": "鍵",
+    "meaning": "열쇠",
+    "pronunciation": "かぎ"
+  },
+  {
+    "word": "財布",
+    "meaning": "지갑",
+    "pronunciation": "さいふ"
+  },
+  {
+    "word": "靴",
+    "meaning": "신발",
+    "pronunciation": "くつ"
+  },
+  {
+    "word": "帽子",
+    "meaning": "모자",
+    "pronunciation": "ぼうし"
+  },
+  {
+    "word": "地図",
+    "meaning": "지도",
+    "pronunciation": "ちず"
+  },
+  {
+    "word": "新聞",
+    "meaning": "신문",
+    "pronunciation": "しんぶん"
+  },
+  {
+    "word": "写真",
+    "meaning": "사진",
+    "pronunciation": "しゃしん"
+  },
+  {
+    "word": "料理",
+    "meaning": "요리",
+    "pronunciation": "りょうり"
+  },
+  {
+    "word": "店",
+    "meaning": "가게",
+    "pronunciation": "みせ"
+  },
+  {
+    "word": "橋",
+    "meaning": "다리(bridge)",
+    "pronunciation": "はし"
+  },
+  {
+    "word": "病院",
+    "meaning": "병원",
+    "pronunciation": "びょういん"
+  },
+  {
+    "word": "空港",
+    "meaning": "공항",
+    "pronunciation": "くうこう"
+  },
+  {
+    "word": "駅",
+    "meaning": "역",
+    "pronunciation": "えき"
+  },
+  {
+    "word": "部屋",
+    "meaning": "방",
+    "pronunciation": "へや"
+  },
+  {
+    "word": "天気",
+    "meaning": "날씨",
+    "pronunciation": "てんき"
+  },
+  {
+    "word": "笑う",
+    "meaning": "웃다",
+    "pronunciation": "わらう"
+  },
+  {
+    "word": "泣く",
+    "meaning": "울다",
+    "pronunciation": "なく"
+  },
+  {
+    "word": "歌う",
+    "meaning": "노래하다",
+    "pronunciation": "うたう"
+  },
+  {
+    "word": "走る",
+    "meaning": "달리다",
+    "pronunciation": "はしる"
+  },
+  {
+    "word": "歩く",
+    "meaning": "걷다",
+    "pronunciation": "あるく"
+  },
+  {
+    "word": "話す",
+    "meaning": "말하다",
+    "pronunciation": "はなす"
+  },
+  {
+    "word": "描く",
+    "meaning": "그리다",
+    "pronunciation": "えがく"
+  },
+  {
+    "word": "泳ぐ",
+    "meaning": "수영하다",
+    "pronunciation": "およぐ"
+  },
+  {
+    "word": "帰る",
+    "meaning": "돌아가다",
+    "pronunciation": "かえる"
+  },
+  {
+    "word": "来る",
+    "meaning": "오다",
+    "pronunciation": "くる"
+  },
+  {
+    "word": "青い",
+    "meaning": "파랗다",
+    "pronunciation": "あおい"
+  },
+  {
+    "word": "赤い",
+    "meaning": "빨갛다",
+    "pronunciation": "あかい"
+  },
+  {
+    "word": "黒い",
+    "meaning": "검다",
+    "pronunciation": "くろい"
+  },
+  {
+    "word": "白い",
+    "meaning": "희다",
+    "pronunciation": "しろい"
+  },
+  {
+    "word": "広い",
+    "meaning": "넓다",
+    "pronunciation": "ひろい"
+  },
+  {
+    "word": "狭い",
+    "meaning": "좁다",
+    "pronunciation": "せまい"
+  },
+  {
+    "word": "長い",
+    "meaning": "길다",
+    "pronunciation": "ながい"
+  },
+  {
+    "word": "短い",
+    "meaning": "짧다",
+    "pronunciation": "みじかい"
+  },
+  {
+    "word": "美味しい",
+    "meaning": "맛있다",
+    "pronunciation": "おいしい"
+  },
+  {
+    "word": "まずい",
+    "meaning": "맛없다",
+    "pronunciation": "まずい"
+  },
+  {
+    "word": "単語90",
+    "meaning": "물",
+    "pronunciation": "たんご90"
+  },
+  {
+    "word": "単語91",
+    "meaning": "책",
+    "pronunciation": "たんご91"
+  },
+  {
+    "word": "単語92",
+    "meaning": "선생님",
+    "pronunciation": "たんご92"
+  },
+  {
+    "word": "単語93",
+    "meaning": "일본",
+    "pronunciation": "たんご93"
+  },
+  {
+    "word": "単語94",
+    "meaning": "산",
+    "pronunciation": "たんご94"
+  },
+  {
+    "word": "単語95",
+    "meaning": "강",
+    "pronunciation": "たんご95"
+  },
+  {
+    "word": "単語96",
+    "meaning": "강",
+    "pronunciation": "たんご96"
+  },
+  {
+    "word": "単語97",
+    "meaning": "선생님",
+    "pronunciation": "たんご97"
+  },
+  {
+    "word": "単語98",
+    "meaning": "선생님",
+    "pronunciation": "たんご98"
+  },
+  {
+    "word": "単語99",
+    "meaning": "물",
+    "pronunciation": "たんご99"
+  },
+  {
+    "word": "単語100",
+    "meaning": "일본",
+    "pronunciation": "たんご100"
+  },
+  {
+    "word": "単語101",
+    "meaning": "선생님",
+    "pronunciation": "たんご101"
+  },
+  {
+    "word": "単語102",
+    "meaning": "학교",
+    "pronunciation": "たんご102"
+  },
+  {
+    "word": "単語103",
+    "meaning": "강",
+    "pronunciation": "たんご103"
+  },
+  {
+    "word": "単語104",
+    "meaning": "선생님",
+    "pronunciation": "たんご104"
+  },
+  {
+    "word": "単語105",
+    "meaning": "학생",
+    "pronunciation": "たんご105"
+  },
+  {
+    "word": "単語106",
+    "meaning": "불",
+    "pronunciation": "たんご106"
+  },
+  {
+    "word": "単語107",
+    "meaning": "산",
+    "pronunciation": "たんご107"
+  },
+  {
+    "word": "単語108",
+    "meaning": "선생님",
+    "pronunciation": "たんご108"
+  },
+  {
+    "word": "単語109",
+    "meaning": "일본",
+    "pronunciation": "たんご109"
+  },
+  {
+    "word": "単語110",
+    "meaning": "사람",
+    "pronunciation": "たんご110"
+  },
+  {
+    "word": "単語111",
+    "meaning": "책",
+    "pronunciation": "たんご111"
+  },
+  {
+    "word": "単語112",
+    "meaning": "일본",
+    "pronunciation": "たんご112"
+  },
+  {
+    "word": "単語113",
+    "meaning": "물",
+    "pronunciation": "たんご113"
+  },
+  {
+    "word": "単語114",
+    "meaning": "책",
+    "pronunciation": "たんご114"
+  },
+  {
+    "word": "単語115",
+    "meaning": "일본",
+    "pronunciation": "たんご115"
+  },
+  {
+    "word": "単語116",
+    "meaning": "산",
+    "pronunciation": "たんご116"
+  },
+  {
+    "word": "単語117",
+    "meaning": "책",
+    "pronunciation": "たんご117"
+  },
+  {
+    "word": "単語118",
+    "meaning": "학교",
+    "pronunciation": "たんご118"
+  },
+  {
+    "word": "単語119",
+    "meaning": "선생님",
+    "pronunciation": "たんご119"
+  },
+  {
+    "word": "単語120",
+    "meaning": "학교",
+    "pronunciation": "たんご120"
+  },
+  {
+    "word": "単語121",
+    "meaning": "산",
+    "pronunciation": "たんご121"
+  },
+  {
+    "word": "単語122",
+    "meaning": "일본",
+    "pronunciation": "たんご122"
+  },
+  {
+    "word": "単語123",
+    "meaning": "선생님",
+    "pronunciation": "たんご123"
+  },
+  {
+    "word": "単語124",
+    "meaning": "선생님",
+    "pronunciation": "たんご124"
+  },
+  {
+    "word": "単語125",
+    "meaning": "책",
+    "pronunciation": "たんご125"
+  },
+  {
+    "word": "単語126",
+    "meaning": "산",
+    "pronunciation": "たんご126"
+  },
+  {
+    "word": "単語127",
+    "meaning": "물",
+    "pronunciation": "たんご127"
+  },
+  {
+    "word": "単語128",
+    "meaning": "일본",
+    "pronunciation": "たんご128"
+  },
+  {
+    "word": "単語129",
+    "meaning": "물",
+    "pronunciation": "たんご129"
+  },
+  {
+    "word": "単語130",
+    "meaning": "학교",
+    "pronunciation": "たんご130"
+  },
+  {
+    "word": "単語131",
+    "meaning": "산",
+    "pronunciation": "たんご131"
+  },
+  {
+    "word": "単語132",
+    "meaning": "학생",
+    "pronunciation": "たんご132"
+  },
+  {
+    "word": "単語133",
+    "meaning": "산",
+    "pronunciation": "たんご133"
+  },
+  {
+    "word": "単語134",
+    "meaning": "사람",
+    "pronunciation": "たんご134"
+  },
+  {
+    "word": "単語135",
+    "meaning": "책",
+    "pronunciation": "たんご135"
+  },
+  {
+    "word": "単語136",
+    "meaning": "학교",
+    "pronunciation": "たんご136"
+  },
+  {
+    "word": "単語137",
+    "meaning": "강",
+    "pronunciation": "たんご137"
+  },
+  {
+    "word": "単語138",
+    "meaning": "학교",
+    "pronunciation": "たんご138"
+  },
+  {
+    "word": "単語139",
+    "meaning": "학생",
+    "pronunciation": "たんご139"
+  },
+  {
+    "word": "単語140",
+    "meaning": "사람",
+    "pronunciation": "たんご140"
+  },
+  {
+    "word": "単語141",
+    "meaning": "산",
+    "pronunciation": "たんご141"
+  },
+  {
+    "word": "単語142",
+    "meaning": "불",
+    "pronunciation": "たんご142"
+  },
+  {
+    "word": "単語143",
+    "meaning": "일본",
+    "pronunciation": "たんご143"
+  },
+  {
+    "word": "単語144",
+    "meaning": "책",
+    "pronunciation": "たんご144"
+  },
+  {
+    "word": "単語145",
+    "meaning": "강",
+    "pronunciation": "たんご145"
+  },
+  {
+    "word": "単語146",
+    "meaning": "학생",
+    "pronunciation": "たんご146"
+  },
+  {
+    "word": "単語147",
+    "meaning": "산",
+    "pronunciation": "たんご147"
+  },
+  {
+    "word": "単語148",
+    "meaning": "물",
+    "pronunciation": "たんご148"
+  },
+  {
+    "word": "単語149",
+    "meaning": "산",
+    "pronunciation": "たんご149"
+  },
+  {
+    "word": "単語150",
+    "meaning": "산",
+    "pronunciation": "たんご150"
+  },
+  {
+    "word": "単語151",
+    "meaning": "불",
+    "pronunciation": "たんご151"
+  },
+  {
+    "word": "単語152",
+    "meaning": "물",
+    "pronunciation": "たんご152"
+  },
+  {
+    "word": "単語153",
+    "meaning": "물",
+    "pronunciation": "たんご153"
+  },
+  {
+    "word": "単語154",
+    "meaning": "학생",
+    "pronunciation": "たんご154"
+  },
+  {
+    "word": "単語155",
+    "meaning": "산",
+    "pronunciation": "たんご155"
+  },
+  {
+    "word": "単語156",
+    "meaning": "불",
+    "pronunciation": "たんご156"
+  },
+  {
+    "word": "単語157",
+    "meaning": "학교",
+    "pronunciation": "たんご157"
+  },
+  {
+    "word": "単語158",
+    "meaning": "책",
+    "pronunciation": "たんご158"
+  },
+  {
+    "word": "単語159",
+    "meaning": "물",
+    "pronunciation": "たんご159"
+  },
+  {
+    "word": "単語160",
+    "meaning": "학교",
+    "pronunciation": "たんご160"
+  },
+  {
+    "word": "単語161",
+    "meaning": "일본",
+    "pronunciation": "たんご161"
+  },
+  {
+    "word": "単語162",
+    "meaning": "선생님",
+    "pronunciation": "たんご162"
+  },
+  {
+    "word": "単語163",
+    "meaning": "학교",
+    "pronunciation": "たんご163"
+  },
+  {
+    "word": "単語164",
+    "meaning": "일본",
+    "pronunciation": "たんご164"
+  },
+  {
+    "word": "単語165",
+    "meaning": "산",
+    "pronunciation": "たんご165"
+  },
+  {
+    "word": "単語166",
+    "meaning": "학교",
+    "pronunciation": "たんご166"
+  },
+  {
+    "word": "単語167",
+    "meaning": "선생님",
+    "pronunciation": "たんご167"
+  },
+  {
+    "word": "単語168",
+    "meaning": "학생",
+    "pronunciation": "たんご168"
+  },
+  {
+    "word": "単語169",
+    "meaning": "책",
+    "pronunciation": "たんご169"
+  },
+  {
+    "word": "単語170",
+    "meaning": "학교",
+    "pronunciation": "たんご170"
+  },
+  {
+    "word": "単語171",
+    "meaning": "책",
+    "pronunciation": "たんご171"
+  },
+  {
+    "word": "単語172",
+    "meaning": "사람",
+    "pronunciation": "たんご172"
+  },
+  {
+    "word": "単語173",
+    "meaning": "학생",
+    "pronunciation": "たんご173"
+  },
+  {
+    "word": "単語174",
+    "meaning": "불",
+    "pronunciation": "たんご174"
+  },
+  {
+    "word": "単語175",
+    "meaning": "책",
+    "pronunciation": "たんご175"
+  },
+  {
+    "word": "単語176",
+    "meaning": "선생님",
+    "pronunciation": "たんご176"
+  },
+  {
+    "word": "単語177",
+    "meaning": "일본",
+    "pronunciation": "たんご177"
+  },
+  {
+    "word": "単語178",
+    "meaning": "강",
+    "pronunciation": "たんご178"
+  },
+  {
+    "word": "単語179",
+    "meaning": "물",
+    "pronunciation": "たんご179"
+  },
+  {
+    "word": "単語180",
+    "meaning": "산",
+    "pronunciation": "たんご180"
+  },
+  {
+    "word": "単語181",
+    "meaning": "선생님",
+    "pronunciation": "たんご181"
+  },
+  {
+    "word": "単語182",
+    "meaning": "책",
+    "pronunciation": "たんご182"
+  },
+  {
+    "word": "単語183",
+    "meaning": "산",
+    "pronunciation": "たんご183"
+  },
+  {
+    "word": "単語184",
+    "meaning": "학교",
+    "pronunciation": "たんご184"
+  },
+  {
+    "word": "単語185",
+    "meaning": "학생",
+    "pronunciation": "たんご185"
+  },
+  {
+    "word": "単語186",
+    "meaning": "사람",
+    "pronunciation": "たんご186"
+  },
+  {
+    "word": "単語187",
+    "meaning": "불",
+    "pronunciation": "たんご187"
+  },
+  {
+    "word": "単語188",
+    "meaning": "산",
+    "pronunciation": "たんご188"
+  },
+  {
+    "word": "単語189",
+    "meaning": "학교",
+    "pronunciation": "たんご189"
+  },
+  {
+    "word": "単語190",
+    "meaning": "물",
+    "pronunciation": "たんご190"
+  },
+  {
+    "word": "単語191",
+    "meaning": "학생",
+    "pronunciation": "たんご191"
+  },
+  {
+    "word": "単語192",
+    "meaning": "강",
+    "pronunciation": "たんご192"
+  },
+  {
+    "word": "負ける",
+    "meaning": "지다",
+    "pronunciation": "まける"
+  },
+  {
+    "word": "送信する",
+    "meaning": "송신하다",
+    "pronunciation": "そうしんする"
+  },
+  {
+    "word": "静か",
+    "meaning": "조용하다",
+    "pronunciation": "しずか"
+  },
+  {
+    "word": "単語196",
+    "meaning": "강",
+    "pronunciation": "たんご196"
+  },
+  {
+    "word": "単語197",
+    "meaning": "학교",
+    "pronunciation": "たんご197"
+  },
+  {
+    "word": "単語198",
+    "meaning": "일본",
+    "pronunciation": "たんご198"
+  },
+  {
+    "word": "単語199",
+    "meaning": "학생",
+    "pronunciation": "たんご199"
+  },
+  {
+    "word": "単語200",
+    "meaning": "사람",
+    "pronunciation": "たんご200"
+  },
+  {
+    "word": "遅い",
+    "meaning": "늦다",
+    "pronunciation": "おそい"
+  },
+  {
+    "word": "便利だ",
+    "meaning": "편리하다",
+    "pronunciation": "べんりだ"
+  },
+  {
+    "word": "終わる",
+    "meaning": "끝나다",
+    "pronunciation": "おわる"
+  },
+  {
+    "word": "使う",
+    "meaning": "사용하다",
+    "pronunciation": "つかう"
+  },
+  {
+    "word": "優しい",
+    "meaning": "친절하다",
+    "pronunciation": "やさしい"
+  },
+  {
+    "word": "痩せる",
+    "meaning": "살 빠지다",
+    "pronunciation": "やせる"
+  },
+  {
+    "word": "始める",
+    "meaning": "시작하다",
+    "pronunciation": "はじめる"
+  },
+  {
+    "word": "弱い",
+    "meaning": "약하다",
+    "pronunciation": "よわい"
+  },
+  {
+    "word": "急ぐ",
+    "meaning": "서두르다",
+    "pronunciation": "いそぐ"
+  },
+  {
+    "word": "重い",
+    "meaning": "무겁다",
+    "pronunciation": "おもい"
+  },
+  {
+    "word": "元気だ",
+    "meaning": "건강하다",
+    "pronunciation": "げんきだ"
+  },
+  {
+    "word": "軽い",
+    "meaning": "가볍다",
+    "pronunciation": "かるい"
+  },
+  {
+    "word": "軽い",
+    "meaning": "가볍다",
+    "pronunciation": "かるい"
+  },
+  {
+    "word": "降りる",
+    "meaning": "내리다",
+    "pronunciation": "おりる"
+  },
+  {
+    "word": "寒い",
+    "meaning": "춥다",
+    "pronunciation": "さむい"
+  },
+  {
+    "word": "遊ぶ",
+    "meaning": "놀다",
+    "pronunciation": "あそぶ"
+  },
+  {
+    "word": "軽い",
+    "meaning": "가볍다",
+    "pronunciation": "かるい"
+  },
+  {
+    "word": "痩せる",
+    "meaning": "살 빠지다",
+    "pronunciation": "やせる"
+  },
+  {
+    "word": "高い",
+    "meaning": "비싸다/높다",
+    "pronunciation": "たかい"
+  },
+  {
+    "word": "待つ",
+    "meaning": "기다리다",
+    "pronunciation": "まつ"
+  },
+  {
+    "word": "急ぐ",
+    "meaning": "서두르다",
+    "pronunciation": "いそぐ"
+  },
+  {
+    "word": "甘い",
+    "meaning": "달다",
+    "pronunciation": "あまい"
+  },
+  {
+    "word": "泣く",
+    "meaning": "울다",
+    "pronunciation": "なく"
+  },
+  {
+    "word": "弱い",
+    "meaning": "약하다",
+    "pronunciation": "よわい"
+  },
+  {
+    "word": "疲れる",
+    "meaning": "피곤하다",
+    "pronunciation": "つかれる"
+  },
+  {
+    "word": "痩せる",
+    "meaning": "살 빠지다",
+    "pronunciation": "やせる"
+  },
+  {
+    "word": "忘れる",
+    "meaning": "잊다",
+    "pronunciation": "わすれる"
+  },
+  {
+    "word": "遊ぶ",
+    "meaning": "놀다",
+    "pronunciation": "あそぶ"
+  },
+  {
+    "word": "優しい",
+    "meaning": "친절하다",
+    "pronunciation": "やさしい"
+  },
+  {
+    "word": "急ぐ",
+    "meaning": "서두르다",
+    "pronunciation": "いそぐ"
+  },
+  {
+    "word": "遅い",
+    "meaning": "늦다",
+    "pronunciation": "おそい"
+  },
+  {
+    "word": "痩せる",
+    "meaning": "살 빠지다",
+    "pronunciation": "やせる"
+  },
+  {
+    "word": "乗る",
+    "meaning": "타다",
+    "pronunciation": "のる"
+  },
+  {
+    "word": "重い",
+    "meaning": "무겁다",
+    "pronunciation": "おもい"
+  },
+  {
+    "word": "遅い",
+    "meaning": "늦다",
+    "pronunciation": "おそい"
+  },
+  {
+    "word": "苦い",
+    "meaning": "쓰다",
+    "pronunciation": "にがい"
+  },
+  {
+    "word": "重い",
+    "meaning": "무겁다",
+    "pronunciation": "おもい"
+  },
+  {
+    "word": "遊ぶ",
+    "meaning": "놀다",
+    "pronunciation": "あそぶ"
+  },
+  {
+    "word": "安い",
+    "meaning": "싸다",
+    "pronunciation": "やすい"
+  },
+  {
+    "word": "優しい",
+    "meaning": "친절하다",
+    "pronunciation": "やさしい"
+  },
+  {
+    "word": "忘れる",
+    "meaning": "잊다",
+    "pronunciation": "わすれる"
+  },
+  {
+    "word": "洗う",
+    "meaning": "씻다",
+    "pronunciation": "あらう"
+  },
+  {
+    "word": "洗う",
+    "meaning": "씻다",
+    "pronunciation": "あらう"
+  },
+  {
+    "word": "覚える",
+    "meaning": "외우다",
+    "pronunciation": "おぼえる"
+  },
+  {
+    "word": "終わる",
+    "meaning": "끝나다",
+    "pronunciation": "おわる"
+  },
+  {
+    "word": "待つ",
+    "meaning": "기다리다",
+    "pronunciation": "まつ"
+  },
+  {
+    "word": "弱い",
+    "meaning": "약하다",
+    "pronunciation": "よわい"
+  },
+  {
+    "word": "面白い",
+    "meaning": "재미있다",
+    "pronunciation": "おもしろい"
+  },
+  {
+    "word": "疲れる",
+    "meaning": "피곤하다",
+    "pronunciation": "つかれる"
+  },
+  {
+    "word": "切る",
+    "meaning": "자르다",
+    "pronunciation": "きる"
+  },
+  {
+    "word": "軽い",
+    "meaning": "가볍다",
+    "pronunciation": "かるい"
+  },
+  {
+    "word": "安い",
+    "meaning": "싸다",
+    "pronunciation": "やすい"
+  },
+  {
+    "word": "苦い",
+    "meaning": "쓰다",
+    "pronunciation": "にがい"
+  },
+  {
+    "word": "安い",
+    "meaning": "싸다",
+    "pronunciation": "やすい"
+  },
+  {
+    "word": "弱い",
+    "meaning": "약하다",
+    "pronunciation": "よわい"
+  },
+  {
+    "word": "安い",
+    "meaning": "싸다",
+    "pronunciation": "やすい"
+  },
+  {
+    "word": "重い",
+    "meaning": "무겁다",
+    "pronunciation": "おもい"
+  },
+  {
+    "word": "難しい",
+    "meaning": "어렵다",
+    "pronunciation": "むずかしい"
+  },
+  {
+    "word": "難しい",
+    "meaning": "어렵다",
+    "pronunciation": "むずかしい"
+  },
+  {
+    "word": "洗う",
+    "meaning": "씻다",
+    "pronunciation": "あらう"
+  },
+  {
+    "word": "待つ",
+    "meaning": "기다리다",
+    "pronunciation": "まつ"
+  },
+  {
+    "word": "太る",
+    "meaning": "살찌다",
+    "pronunciation": "ふとる"
+  },
+  {
+    "word": "遅い",
+    "meaning": "늦다",
+    "pronunciation": "おそい"
+  },
+  {
+    "word": "難しい",
+    "meaning": "어렵다",
+    "pronunciation": "むずかしい"
+  },
+  {
+    "word": "遊ぶ",
+    "meaning": "놀다",
+    "pronunciation": "あそぶ"
+  },
+  {
+    "word": "弱い",
+    "meaning": "약하다",
+    "pronunciation": "よわい"
+  },
+  {
+    "word": "歌う",
+    "meaning": "노래하다",
+    "pronunciation": "うたう"
+  },
+  {
+    "word": "安い",
+    "meaning": "싸다",
+    "pronunciation": "やすい"
+  },
+  {
+    "word": "歌う",
+    "meaning": "노래하다",
+    "pronunciation": "うたう"
+  },
+  {
+    "word": "待つ",
+    "meaning": "기다리다",
+    "pronunciation": "まつ"
+  },
+  {
+    "word": "静かだ",
+    "meaning": "조용하다",
+    "pronunciation": "しずかだ"
+  },
+  {
+    "word": "使う",
+    "meaning": "사용하다",
+    "pronunciation": "つかう"
+  },
+  {
+    "word": "強い",
+    "meaning": "강하다",
+    "pronunciation": "つよい"
+  },
+  {
+    "word": "開ける",
+    "meaning": "열다",
+    "pronunciation": "あける"
+  },
+  {
+    "word": "難しい",
+    "meaning": "어렵다",
+    "pronunciation": "むずかしい"
+  },
+  {
+    "word": "切る",
+    "meaning": "자르다",
+    "pronunciation": "きる"
+  },
+  {
+    "word": "乗る",
+    "meaning": "타다",
+    "pronunciation": "のる"
+  },
+  {
+    "word": "終わる",
+    "meaning": "끝나다",
+    "pronunciation": "おわる"
+  },
+  {
+    "word": "苦い",
+    "meaning": "쓰다",
+    "pronunciation": "にがい"
+  },
+  {
+    "word": "開ける",
+    "meaning": "열다",
+    "pronunciation": "あける"
+  },
+  {
+    "word": "遊ぶ",
+    "meaning": "놀다",
+    "pronunciation": "あそぶ"
+  },
+  {
+    "word": "呼ぶ",
+    "meaning": "부르다",
+    "pronunciation": "よぶ"
+  },
+  {
+    "word": "高い",
+    "meaning": "비싸다/높다",
+    "pronunciation": "たかい"
+  },
+  {
+    "word": "太る",
+    "meaning": "살찌다",
+    "pronunciation": "ふとる"
+  },
+  {
+    "word": "洗う",
+    "meaning": "씻다",
+    "pronunciation": "あらう"
+  },
+  {
+    "word": "覚える",
+    "meaning": "외우다",
+    "pronunciation": "おぼえる"
+  },
+  {
+    "word": "乗る",
+    "meaning": "타다",
+    "pronunciation": "のる"
+  },
+  {
+    "word": "面白い",
+    "meaning": "재미있다",
+    "pronunciation": "おもしろい"
+  },
+  {
+    "word": "軽い",
+    "meaning": "가볍다",
+    "pronunciation": "かるい"
+  },
+  {
+    "word": "忘れる",
+    "meaning": "잊다",
+    "pronunciation": "わすれる"
+  },
+  {
+    "word": "甘い",
+    "meaning": "달다",
+    "pronunciation": "あまい"
+  },
+  {
+    "word": "重い",
+    "meaning": "무겁다",
+    "pronunciation": "おもい"
+  },
+  {
+    "word": "弱い",
+    "meaning": "약하다",
+    "pronunciation": "よわい"
+  },
+  {
+    "word": "泣く",
+    "meaning": "울다",
+    "pronunciation": "なく"
+  },
+  {
+    "word": "強い",
+    "meaning": "강하다",
+    "pronunciation": "つよい"
+  },
+  {
+    "word": "覚える",
+    "meaning": "외우다",
+    "pronunciation": "おぼえる"
+  },
+  {
+    "word": "歌う",
+    "meaning": "노래하다",
+    "pronunciation": "うたう"
+  },
+  {
+    "word": "太る",
+    "meaning": "살찌다",
+    "pronunciation": "ふとる"
+  },
+  {
+    "word": "急ぐ",
+    "meaning": "서두르다",
+    "pronunciation": "いそぐ"
+  },
+  {
+    "word": "使う",
+    "meaning": "사용하다",
+    "pronunciation": "つかう"
+  },
+  {
+    "word": "遅い",
+    "meaning": "늦다",
+    "pronunciation": "おそい"
+  },
+  {
+    "word": "急ぐ",
+    "meaning": "서두르다",
+    "pronunciation": "いそぐ"
+  },
+  {
+    "word": "太る",
+    "meaning": "살찌다",
+    "pronunciation": "ふとる"
+  },
+  {
+    "word": "待つ",
+    "meaning": "기다리다",
+    "pronunciation": "まつ"
+  },
+  {
+    "word": "重い",
+    "meaning": "무겁다",
+    "pronunciation": "おもい"
+  },
+  {
+    "word": "泣く",
+    "meaning": "울다",
+    "pronunciation": "なく"
+  },
+  {
+    "word": "始める",
+    "meaning": "시작하다",
+    "pronunciation": "はじめる"
+  },
+  {
+    "word": "有名だ",
+    "meaning": "유명하다",
+    "pronunciation": "ゆうめいだ"
+  },
+  {
+    "word": "便利だ",
+    "meaning": "편리하다",
+    "pronunciation": "べんりだ"
+  },
+  {
+    "word": "弱い",
+    "meaning": "약하다",
+    "pronunciation": "よわい"
+  },
+  {
+    "word": "暑い",
+    "meaning": "덥다",
+    "pronunciation": "あつい"
+  },
+  {
+    "word": "弱い",
+    "meaning": "약하다",
+    "pronunciation": "よわい"
+  },
+  {
+    "word": "寒い",
+    "meaning": "춥다",
+    "pronunciation": "さむい"
+  },
+  {
+    "word": "遊ぶ",
+    "meaning": "놀다",
+    "pronunciation": "あそぶ"
+  },
+  {
+    "word": "開ける",
+    "meaning": "열다",
+    "pronunciation": "あける"
+  },
+  {
+    "word": "元気だ",
+    "meaning": "건강하다",
+    "pronunciation": "げんきだ"
+  },
+  {
+    "word": "切る",
+    "meaning": "자르다",
+    "pronunciation": "きる"
+  },
+  {
+    "word": "歌う",
+    "meaning": "노래하다",
+    "pronunciation": "うたう"
+  },
+  {
+    "word": "待つ",
+    "meaning": "기다리다",
+    "pronunciation": "まつ"
+  },
+  {
+    "word": "遊ぶ",
+    "meaning": "놀다",
+    "pronunciation": "あそぶ"
+  },
+  {
+    "word": "面白い",
+    "meaning": "재미있다",
+    "pronunciation": "おもしろい"
+  },
+  {
+    "word": "疲れる",
+    "meaning": "피곤하다",
+    "pronunciation": "つかれる"
+  },
+  {
+    "word": "開ける",
+    "meaning": "열다",
+    "pronunciation": "あける"
+  },
+  {
+    "word": "元気だ",
+    "meaning": "건강하다",
+    "pronunciation": "げんきだ"
+  },
+  {
+    "word": "切る",
+    "meaning": "자르다",
+    "pronunciation": "きる"
+  },
+  {
+    "word": "待つ",
+    "meaning": "기다리다",
+    "pronunciation": "まつ"
+  },
+  {
+    "word": "安い",
+    "meaning": "싸다",
+    "pronunciation": "やすい"
+  },
+  {
+    "word": "甘い",
+    "meaning": "달다",
+    "pronunciation": "あまい"
+  },
+  {
+    "word": "泣く",
+    "meaning": "울다",
+    "pronunciation": "なく"
+  },
+  {
+    "word": "元気だ",
+    "meaning": "건강하다",
+    "pronunciation": "げんきだ"
+  },
+  {
+    "word": "覚える",
+    "meaning": "외우다",
+    "pronunciation": "おぼえる"
+  },
+  {
+    "word": "優しい",
+    "meaning": "친절하다",
+    "pronunciation": "やさしい"
+  },
+  {
+    "word": "暑い",
+    "meaning": "덥다",
+    "pronunciation": "あつい"
+  },
+  {
+    "word": "忘れる",
+    "meaning": "잊다",
+    "pronunciation": "わすれる"
+  },
+  {
+    "word": "呼ぶ",
+    "meaning": "부르다",
+    "pronunciation": "よぶ"
+  },
+  {
+    "word": "甘い",
+    "meaning": "달다",
+    "pronunciation": "あまい"
+  },
+  {
+    "word": "痩せる",
+    "meaning": "살 빠지다",
+    "pronunciation": "やせる"
+  },
+  {
+    "word": "閉める",
+    "meaning": "닫다",
+    "pronunciation": "しめる"
+  },
+  {
+    "word": "閉める",
+    "meaning": "닫다",
+    "pronunciation": "しめる"
+  },
+  {
+    "word": "寒い",
+    "meaning": "춥다",
+    "pronunciation": "さむい"
+  },
+  {
+    "word": "優しい",
+    "meaning": "친절하다",
+    "pronunciation": "やさしい"
+  },
+  {
+    "word": "乗る",
+    "meaning": "타다",
+    "pronunciation": "のる"
+  },
+  {
+    "word": "遅い",
+    "meaning": "늦다",
+    "pronunciation": "おそい"
+  },
+  {
+    "word": "寒い",
+    "meaning": "춥다",
+    "pronunciation": "さむい"
+  },
+  {
+    "word": "難しい",
+    "meaning": "어렵다",
+    "pronunciation": "むずかしい"
+  },
+  {
+    "word": "開ける",
+    "meaning": "열다",
+    "pronunciation": "あける"
+  },
+  {
+    "word": "優しい",
+    "meaning": "친절하다",
+    "pronunciation": "やさしい"
+  },
+  {
+    "word": "覚える",
+    "meaning": "외우다",
+    "pronunciation": "おぼえる"
+  },
+  {
+    "word": "終わる",
+    "meaning": "끝나다",
+    "pronunciation": "おわる"
+  },
+  {
+    "word": "難しい",
+    "meaning": "어렵다",
+    "pronunciation": "むずかしい"
+  },
+  {
+    "word": "強い",
+    "meaning": "강하다",
+    "pronunciation": "つよい"
+  },
+  {
+    "word": "優しい",
+    "meaning": "친절하다",
+    "pronunciation": "やさしい"
+  },
+  {
+    "word": "急ぐ",
+    "meaning": "서두르다",
+    "pronunciation": "いそぐ"
+  },
+  {
+    "word": "重い",
+    "meaning": "무겁다",
+    "pronunciation": "おもい"
+  },
+  {
+    "word": "重い",
+    "meaning": "무겁다",
+    "pronunciation": "おもい"
+  },
+  {
+    "word": "遅い",
+    "meaning": "늦다",
+    "pronunciation": "おそい"
+  },
+  {
+    "word": "忘れる",
+    "meaning": "잊다",
+    "pronunciation": "わすれる"
+  },
+  {
+    "word": "太る",
+    "meaning": "살찌다",
+    "pronunciation": "ふとる"
+  },
+  {
+    "word": "甘い",
+    "meaning": "달다",
+    "pronunciation": "あまい"
+  },
+  {
+    "word": "泣く",
+    "meaning": "울다",
+    "pronunciation": "なく"
+  },
+  {
+    "word": "面白い",
+    "meaning": "재미있다",
+    "pronunciation": "おもしろい"
+  },
+  {
+    "word": "忘れる",
+    "meaning": "잊다",
+    "pronunciation": "わすれる"
+  },
+  {
+    "word": "遅い",
+    "meaning": "늦다",
+    "pronunciation": "おそい"
+  },
+  {
+    "word": "開ける",
+    "meaning": "열다",
+    "pronunciation": "あける"
+  },
+  {
+    "word": "呼ぶ",
+    "meaning": "부르다",
+    "pronunciation": "よぶ"
+  },
+  {
+    "word": "遅い",
+    "meaning": "늦다",
+    "pronunciation": "おそい"
+  },
+  {
+    "word": "面白い",
+    "meaning": "재미있다",
+    "pronunciation": "おもしろい"
+  },
+  {
+    "word": "安い",
+    "meaning": "싸다",
+    "pronunciation": "やすい"
+  },
+  {
+    "word": "苦い",
+    "meaning": "쓰다",
+    "pronunciation": "にがい"
+  },
+  {
+    "word": "疲れる",
+    "meaning": "피곤하다",
+    "pronunciation": "つかれる"
+  },
+  {
+    "word": "強い",
+    "meaning": "강하다",
+    "pronunciation": "つよい"
+  },
+  {
+    "word": "遊ぶ",
+    "meaning": "놀다",
+    "pronunciation": "あそぶ"
+  },
+  {
+    "word": "覚える",
+    "meaning": "외우다",
+    "pronunciation": "おぼえる"
+  },
+  {
+    "word": "疲れる",
+    "meaning": "피곤하다",
+    "pronunciation": "つかれる"
+  },
+  {
+    "word": "重い",
+    "meaning": "무겁다",
+    "pronunciation": "おもい"
+  },
+  {
+    "word": "始める",
+    "meaning": "시작하다",
+    "pronunciation": "はじめる"
+  },
+  {
+    "word": "太る",
+    "meaning": "살찌다",
+    "pronunciation": "ふとる"
+  },
+  {
+    "word": "洗う",
+    "meaning": "씻다",
+    "pronunciation": "あらう"
+  },
+  {
+    "word": "軽い",
+    "meaning": "가볍다",
+    "pronunciation": "かるい"
+  },
+  {
+    "word": "静かだ",
+    "meaning": "조용하다",
+    "pronunciation": "しずかだ"
+  },
+  {
+    "word": "乗る",
+    "meaning": "타다",
+    "pronunciation": "のる"
+  },
+  {
+    "word": "遊ぶ",
+    "meaning": "놀다",
+    "pronunciation": "あそぶ"
+  },
+  {
+    "word": "安い",
+    "meaning": "싸다",
+    "pronunciation": "やすい"
+  },
+  {
+    "word": "安い",
+    "meaning": "싸다",
+    "pronunciation": "やすい"
+  },
+  {
+    "word": "静かだ",
+    "meaning": "조용하다",
+    "pronunciation": "しずかだ"
+  },
+  {
+    "word": "弱い",
+    "meaning": "약하다",
+    "pronunciation": "よわい"
+  },
+  {
+    "word": "寒い",
+    "meaning": "춥다",
+    "pronunciation": "さむい"
+  },
+  {
+    "word": "遊ぶ",
+    "meaning": "놀다",
+    "pronunciation": "あそぶ"
+  },
+  {
+    "word": "難しい",
+    "meaning": "어렵다",
+    "pronunciation": "むずかしい"
+  },
+  {
+    "word": "元気だ",
+    "meaning": "건강하다",
+    "pronunciation": "げんきだ"
+  },
+  {
+    "word": "待つ",
+    "meaning": "기다리다",
+    "pronunciation": "まつ"
+  },
+  {
+    "word": "高い",
+    "meaning": "비싸다/높다",
+    "pronunciation": "たかい"
+  },
+  {
+    "word": "難しい",
+    "meaning": "어렵다",
+    "pronunciation": "むずかしい"
+  },
+  {
+    "word": "開ける",
+    "meaning": "열다",
+    "pronunciation": "あける"
+  },
+  {
+    "word": "終わる",
+    "meaning": "끝나다",
+    "pronunciation": "おわる"
+  },
+  {
+    "word": "安い",
+    "meaning": "싸다",
+    "pronunciation": "やすい"
+  },
+  {
+    "word": "疲れる",
+    "meaning": "피곤하다",
+    "pronunciation": "つかれる"
+  },
+  {
+    "word": "泣く",
+    "meaning": "울다",
+    "pronunciation": "なく"
+  },
+  {
+    "word": "優しい",
+    "meaning": "친절하다",
+    "pronunciation": "やさしい"
+  },
+  {
+    "word": "乗る",
+    "meaning": "타다",
+    "pronunciation": "のる"
+  },
+  {
+    "word": "改札",
+    "meaning": "개찰",
+    "pronunciation": "かいさつ"
+  },
+  {
+    "word": "価格",
+    "meaning": "가격",
+    "pronunciation": "かかく"
+  },
+  {
+    "word": "各駅",
+    "meaning": "각 역",
+    "pronunciation": "かくえき"
+  },
+  {
+    "word": "観客",
+    "meaning": "관객",
+    "pronunciation": "かんきゃく"
+  },
+  {
+    "word": "完成",
+    "meaning": "완성",
+    "pronunciation": "かんせい"
+  },
+  {
+    "word": "血液型",
+    "meaning": "혈액형",
+    "pronunciation": "けつえきがた"
+  },
+  {
+    "word": "方角",
+    "meaning": "방향",
+    "pronunciation": "ほうかく"
+  },
+  {
+    "word": "録画",
+    "meaning": "녹화",
+    "pronunciation": "ろくが"
+  },
+  {
+    "word": "延期",
+    "meaning": "연기",
+    "pronunciation": "えんき"
+  },
+  {
+    "word": "機械",
+    "meaning": "기계",
+    "pronunciation": "きかい"
+  },
+  {
+    "word": "議会",
+    "meaning": "의회",
+    "pronunciation": "ぎかい"
+  },
+  {
+    "word": "疑問",
+    "meaning": "의문",
+    "pronunciation": "ぎもん"
+  },
+  {
+    "word": "行事",
+    "meaning": "행사",
+    "pronunciation": "ぎょじ"
+  }
+]
